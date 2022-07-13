@@ -1,0 +1,71 @@
+{"bookobject" : [
+    {
+        "genre" : "Fantasy",
+        "Books" : [
+            {"name" : "The Atlas Six",
+                "description" : "A dark academic debut fantasy with an established cult following that reads like The Secret History meets The Umbrella Academy",
+                "ISBN" : "9781250854513",
+                "author" : "Olivie Blake",
+                "publisher" : "Tor Books",
+                "personalreview" : "It started off a bit too slow and technical and went back and forth throughout between engaging and boring but mostly I was engrossed. Nico and Libby were by far my favorite characters the rest were more arrogant and unrelatable for me. I enjoyed the slow burn getting to know everyone and wow that ending was not what I was expecting. I cannot wait to see what happens next."},
+            {"name" : "A Court of Silver Flames",
+                "description" : "Sarah J. Maas's richly imagined series continues with the journey of Feyre's fiery sister, Nesta.",
+                "ISBN" : "9781681196282",
+                "author" : "Sarah J. Maas",
+                "publisher" : "Bloomsbury USA",
+                "personalreview" : "Nesta is definitely a controversial character but I absolutely love her and Cassian and their dynamic. This book showed huge character growth as well as that not everyone is perfect. It gives an insight of why she is the way she is, good and bad. I can't wait for the next instalment! And I hope we get to continue to see these two characters and their relationship."},
+            {"name" : "Daughter of The Moon Goddess",
+                "description" : "A captivating and romantic debut epic fantasy inspired by the legend of the Chinese moon goddess, Chang'e, in which a young woman's quest to free her mother pits her against the most powerful immortal in the realm.",
+                "ISBN" : "9780063237483",
+                "author" : "Sue Lynn Tan",
+                "publisher" : "HarperCollins",
+                "personalreview" : "This novel honestly took my breath away and left me speechless at some points. The way the author writes allows you to envision the struggles the main characters face. The world is also well written and complete it feel, many novels of this nature tend to leave the world somewhat blank and leave me with a feeling of wanting more. But this novel does a good job explaining how the world works and why the main characters are fighting for what they want. It makes for a great read and I would definitely recommend it to anyone who is trying to break free of the Eurocentric fiction that chapters and indigo tends to offer."}
+            ]
+    },
+    {
+        "genre" : "SciFi",
+        "Books" : [
+            {"name" : "Project Hail Mary",
+                "description" : "From the author of The Martian, a lone astronaut must save the earth from disaster in this cinematic thriller full of suspense, humor, and fascinating science—in development as a major motion picture starring Ryan Gosling.",
+                "ISBN" : "9780593135204",
+                "author" : "Andy Weir",
+                "publisher" : "Random House Publishing Group",
+                "personalreview" : "I'm reading this book for the second time. The first time it was too exciting for me to read carefully. Now I'm re-reading to enjoy the details more!"},
+            {"name" : "This is How You Lose The Time War",
+                "description" : "From award-winning authors Amal El-Mohtar and Max Gladstone comes an enthralling, romantic novel spanning time and space about two time-traveling rivals who fall in love and must change the past to ensure their future.",
+                "ISBN" : "9781534430990",
+                "author" : "Amal El-Mohtar, Max Gladstone",
+                "publisher" : "Gallery / Saga Press",
+                "personalreview" : "I love this book. It was written so beautifully it made me want to take my time reading it. Sat with it on a snowy day & tried to absorb Red & Blue's letters to each other, I will absolutely reread this one. Also, the rivals to lovers vibes are immaculate."},
+            {"name" : "The Martian",
+                "description" : "The Martian tells the story of Mark Watney, an astronaut on the Ares 3 mission to Mars. After a terrible storm almost destroys the ship and the base, the crew of his ship believe he is dead.",
+                "ISBN" : "9780593357132",
+                "author" : "Andy Weir",
+                "publisher" : "Random House Publishing Group",
+                "personalreview" : "One of the best thrillers I've read in a long time. It feels so real it could almost be nonfiction, and yet it has the narrative drive and power of a rocket launch. This is Apollo 13 times ten."}
+            ]
+    },
+    {
+        "genre" : "Mystery",
+        "Books" : [
+            {"name" : "The Maid",
+                "description" : "A Clue-like, locked-room mystery and a heartwarming journey of the spirit, The Maid explores what it means to be the same as everyone else and yet entirely different—and reveals that all mysteries can be solved through connection to the human heart.",
+                "ISBN" : "9780735241336",
+                "author" : "Nita Prose",
+                "publisher" : "Penguin Canada",
+                "personalreview" : "Really different, fun, quirky story. I'm a big fan of thrillers, and yet I really enjoyed reading this story. Gentle and heartwarming sort of mystery."},
+            {"name" : "The Murder of Mr. Wickham",
+                "description" : "From New York Times-bestselling author Claudia Gray—a summer house party turns into a thrilling whodunit when Mr. Wickham, one of literature's most notorious rakes, finally gets what's coming to him in this brilliantly imagined murder mystery featuring Jane Austen's leading literary couples.",
+                "ISBN" : "9780735241770",
+                "author" : "Claudia Gray",
+                "publisher" : "Penguin Canada",
+                "personalreview" : "This was a fun read for me. I love the characters created by Jane Austin and having a murder mystery of a very unlikable man was a fantastic idea. I really enjoyed seeing the continued lifes of the characters we all know and love."},
+            {"name" : "The Dark Hours",
+                "description" : "LAPD detective Renée Ballard must join forces with Harry Bosch to find justice in a city scarred by fear and social unrest after a methodical killer strikes on New Year's Eve.",
+                "ISBN" : "9781538708477",
+                "author" : "Michael Connelly",
+                "publisher" : "Grand Central Publishing",
+                "personalreview" : "Outstanding… Connelly is the most consistently superior living crime fiction author. The Dark Hours just reinforces that."}
+            ]
+    }]
+}

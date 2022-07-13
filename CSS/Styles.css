@@ -1,0 +1,7 @@
+#head1 {font-size: 96%;}
+#head2 {overflow: visible;
+    text-overflow: clip;
+    white-space: normal;}
+.books, #footerRev {white-space: normal;
+font-weight: normal;}
+h4 {font-weight: bold;}

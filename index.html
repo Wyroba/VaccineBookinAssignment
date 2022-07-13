@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+   <html>
+     <head>
+       <meta charset="utf-8">
+       <meta name="viewport" content="width=device-width, initial-scale=1">
+       <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+	    <script src="http://code.jquery.com/jquery-2.2.4.min.js"></script>
+	    <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+       <link rel="stylesheet" href="CSS/Styles.css" />
+       <script src="js/myScript.js"></script>
+     </head>
+     <body>
+       <section data-role="page" id="mainPage" data-title="Main Page" data-theme="b">
+         <header data-role="header">
+           <h2 id="head1">My Library of Books</h2>
+           <h2 id="head2">Assignment 2 / Peter Wyroba / 991250221</h2>
+           <nav data-role="navbar">
+             <ul>
+                 <li><button id="getJSON" class="ui-btn ui-icon-cloud ui-btn-icon-left">Retrieve Data</button></li>
+                 <li><button id="listGenre" class="ui-btn ui-icon-bullets ui-btn-icon-right">List Genres</button></li>
+             </ul>
+           </nav>
+         </header>
+         <main role="main" class="ui-content" id="text">
+           <section id="errors"></section>
+           <section id="mainList">
+             <ul data-role="listview" data-inset="true" id = "genreList" hidden>
+               <li><a id="0" class="ui-btn ui-icon-carat-r ui-btn-icon-right"></a></li>
+               <li><a id="1" class="ui-btn ui-icon-carat-r ui-btn-icon-right"></a></li>
+               <li><a id="2" class="ui-btn ui-icon-carat-r ui-btn-icon-right"></a></li>
+              </ul>
+            </section>
+         </main>
+         <footer data-role="footer">
+           <h2>wyrobap / Davis</h2>
+         </footer>
+       </section>
+     
+       <section data-role="page" id="bookDetailPage" data-title="Book Detail Page" data-theme="b">
+         <header data-role="header">
+             <h2>Book Detail</h2>
+             <nav data-role="navbar">
+              <ul>
+                  <li><a href="#mainPage" data-transition="flip" class="ui-btn">Main Page</a></li>
+                  <li><a href="#review" data-transition="flip" class="ui-btn">Review</a></li>
+                  <li><a href="https://indigo.ca" data-transition="flip" class="ui-btn">Indigo.ca</a></li>
+              </ul>
+            </nav>
+          </header>
+         <main role="main" class="ui-content">
+          <h3 id="error2">You Did not select a genre!</h3>
+          <section id="bookDetailMain" hidden>
+           <center><h3 id="selectedGenre"></h3></center>
+          <ul data-role="listview" data-inset="true">
+            <li><button id="3" class="ui-btn books"></button></li>
+            <li><button id="4" class="ui-btn books"></button></li>
+            <li><button id="5" class="ui-btn books"></button></li>
+          </ul>
+        </section>
+         </main>
+         <footer data-role="footer">
+           <h2 id="footerh2">wyrobap / </h2>
+         </footer>
+       </section>
+
+       <section data-role="page" id="review" data-title="Review Page" data-theme="b">
+        <header data-role="header">
+            <h2>Personal Review</h2>
+            <h2 id="bookTitle"></h2>
+            <nav data-role="navbar">
+             <ul>
+                 <li><a href="#mainPage" data-transition="flip" class="ui-btn">Main Page</a></li>
+                 <li><a href="#" class="ui-btn ui-btn-inline" data-rel="back">Back</a></li>
+             </ul>
+           </nav>
+         </header>
+        <main role="main" class="ui-content" id="reviewHere">
+          <center>You must select a book first!</center>
+        </main>
+        <footer data-role="footer">
+          <h2 id="footerRev">wyrobap / Davis Campus</h2>
+        </footer>
+      </section>
+
+    </body>
+   </html>
